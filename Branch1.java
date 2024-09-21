@@ -4,8 +4,8 @@ import java.rmi.Naming;
 import java.sql.*;
 
 public class Branch1 {
-    private static final String RMI_SERVER = "//192.168.1.16/BankService";
-    private static final String DB_URL = "jdbc:mysql://192.168.1.16:3306/banksystem";
+    private static final String RMI_SERVER = "//localhost/BankService";
+    private static final String DB_URL = "jdbc:mysql://localhost:3306/banksystem";
     private static final String USER = "root";
     private static final String PASSWORD = "P@ssword";
 

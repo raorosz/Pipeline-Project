@@ -3,7 +3,7 @@ import java.net.*;
 import java.util.Scanner;
 
 public class Client {
-    private static final String BRANCH1_HOST = "192.168.1.16";
+    private static final String BRANCH1_HOST = "localhost";
     private static final int BRANCH1_PORT = 12345;
     private static final Scanner scanner = new Scanner(System.in);
 
