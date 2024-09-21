@@ -31,6 +31,11 @@ public class Client {
                 System.out.println("Server Response: " + response);
             }
         }
+
+        // Close the scanner resource after the loop
+        scanner.close();
+        System.exit(0); // Exit the program gracefully
+     
     }
 
     private static String handleUserChoice(int choice) {
