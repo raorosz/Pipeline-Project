@@ -8,7 +8,7 @@ import java.nio.file.Files;
 import java.nio.file.Paths;
 
 public class CentralServer extends UnicastRemoteObject implements BankService {
-    private static final String DB_URL = "jdbc:mysql://localhost:3306";
+    private static final String DB_URL = "jdbc:mysql://127.0.0.1:3306";
     private static final String USER = "root";
     private static final String PASSWORD = "P@ssword";
 
